@@ -30,7 +30,8 @@ ALLOWED_HOSTS = [
     '*'
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://django-blog-site-2d0t.onrender.com'
+    'https://django-blog-site-2d0t.onrender.com',
+    'https://django-blog-site-1.onrender.com'
 ]
 
 # Application definition
