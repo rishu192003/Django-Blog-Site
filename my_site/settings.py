@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-!2cj40-u!1-syzu&x0l2+a_aju5z9c0fs$gk)ui2^6a^j%w&eh
 DEBUG = getenv("IS_PRODUCTION",True)
 
 ALLOWED_HOSTS = [
-    getenv("APP_HOST")
+    '*'
 ]
 
 
