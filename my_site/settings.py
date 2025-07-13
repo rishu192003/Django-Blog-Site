@@ -29,7 +29,9 @@ DEBUG = getenv("IS_PRODUCTION",True)
 ALLOWED_HOSTS = [
     '*'
 ]
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-blog-site-2d0t.onrender.com'
+]
 
 # Application definition
 
