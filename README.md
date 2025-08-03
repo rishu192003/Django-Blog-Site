@@ -79,7 +79,7 @@ Render
 https://django-blog-site-1.onrender.com/
 
 📷 Screenshots
-<img width="1595" height="843" alt="image" src="https://github.com/user-attachments/assets/a10888b6-f87c-4258-b13d-256c1e74a96e" />
+![Blog Screenshot](uploads/posts/Screenshot%202025-08-03%20115551.png)
 
 📄 License
 This project is open-source and available under the MIT License.
