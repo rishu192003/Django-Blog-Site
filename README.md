@@ -48,31 +48,35 @@ python manage.py createsuperuser
 python manage.py runserver
 Visit http://127.0.0.1:8000/ to see the website in action.
 
-##📁 Project Structure
-django-blog/
-├── blog/               # Blog app
-├── django_my_site/     # Project settings
-├── my_site/            # Main
-├── templates/          # HTML templates
-├── static/             # Static files (CSS, JS)
-├── staticfiles/        
-├── uploads/            
-├── db.sqlite3          # Default SQLite DB
-├── manage.py           
-└── requirements.txt    
+## 📁 Project Structure
 
-##🛠️ Admin Panel
-You can manage posts easily at:
+- django-blog/
+  ├── blog/               # Blog app
+  ├── django_my_site/     # Project settings
+  ├── my_site/            # Main
+  ├── templates/          # HTML templates
+  ├── static/             # Static files (CSS, JS)
+  ├── staticfiles/        
+  ├── uploads/            
+  ├── db.sqlite3          # Default SQLite DB
+  ├── manage.py           
+  └── requirements.txt    
 
-http://127.0.0.1:8000/admin/
+## 🛠️ Admin Panel
 
-Use the credentials from the superuser you created.
+- You can manage posts easily at:
 
-##🌐 Deployment
-Live demo: https://django-blog-site-1.onrender.com/
+  http://127.0.0.1:8000/admin/
 
-##📷 Screenshots
-![Blog Screenshot](uploads/posts/Screenshot%202025-08-03%20115551.png)
+  Use the credentials from the superuser you created.
+
+## 🌐 Deployment
+
+- Live demo: https://django-blog-site-1.onrender.com/
+
+## 📷 Screenshots
+
+- ![Blog Screenshot](uploads/posts/Screenshot%202025-08-03%20115551.png)
 
 📄 License
 This project is open-source and available under the MIT License.
